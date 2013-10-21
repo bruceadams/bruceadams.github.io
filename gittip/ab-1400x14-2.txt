@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking gittip-load-test.herokuapp.com (be patient)
+
+
+Server Software:        Aspen!
+Server Hostname:        gittip-load-test.herokuapp.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,DHE-RSA-AES256-SHA,2048,256
+
+Document Path:          /
+Document Length:        30344 bytes
+
+Concurrency Level:      14
+Time taken for tests:   396.782 seconds
+Complete requests:      1400
+Failed requests:        1080
+   (Connect: 0, Receive: 0, Length: 1080, Exceptions: 0)
+Write errors:           0
+Total transferred:      42845588 bytes
+HTML transferred:       42484296 bytes
+Requests per second:    3.53 [#/sec] (mean)
+Time per request:       3967.823 [ms] (mean)
+Time per request:       283.416 [ms] (mean, across all concurrent requests)
+Transfer rate:          105.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       12   16  13.0     14     117
+Processing:  2789 3944 844.5   3733    8694
+Waiting:     2775 3934 844.3   3720    8692
+Total:       2803 3960 845.2   3748    8707
+
+Percentage of the requests served within a certain time (ms)
+  50%   3748
+  66%   3967
+  75%   4153
+  80%   4323
+  90%   4943
+  95%   5762
+  98%   6702
+  99%   7402
+ 100%   8707 (longest request)
